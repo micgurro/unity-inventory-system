@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac09522fa88a444d9895f0643db073f, type: 3}
+  m_Name: Laptop
+  m_EditorClassIdentifier: 
+  ID: 1
+  DisplayName: Laptop
+  Description: This is a laptop
+  Icon: {fileID: 1137016187, guid: 510c24016b08cf847af0f296b729039e, type: 3}
+  MaxStackSize: 1
+  ItemPrefab: {fileID: 2849631743841336038, guid: fdf4a861b66fedf489bdafdf1635cafa,
+    type: 3}
+  IsAutoPickup: 0
+  InteractPrompt: $"Pick up '{DisplayName}"
